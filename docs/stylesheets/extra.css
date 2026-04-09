@@ -1,0 +1,88 @@
+/* ── ArithmetiQ Global Styles ── */
+
+:root {
+  --aq-orange-1: #e67e22;
+  --aq-orange-2: #f39c12;
+  --aq-red-1:    #e74c3c;
+  --aq-red-2:    #c0392b;
+  --aq-purple-1: #667eea;
+  --aq-purple-2: #764ba2;
+  --aq-teal-1:   #11998e;
+  --aq-teal-2:   #38ef7d;
+}
+
+/* Hero card on homepage */
+.aq-hero {
+  background: linear-gradient(135deg, var(--aq-orange-1), var(--aq-orange-2));
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.aq-hero h1 {
+  font-size: 3rem;
+  margin: 0 0 0.5rem;
+  color: #fff;
+}
+
+.aq-hero p {
+  font-size: 1.2rem;
+  opacity: 0.92;
+  margin: 0;
+}
+
+/* Course cards grid */
+.aq-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.4rem;
+  margin: 2rem 0;
+}
+
+.aq-card {
+  border-radius: 0.9rem;
+  padding: 1.6rem 1.4rem;
+  color: #fff;
+  text-decoration: none !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+}
+
+.aq-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.2);
+}
+
+.aq-card .aq-card-icon { font-size: 2rem; }
+.aq-card .aq-card-title { font-size: 1.15rem; font-weight: 700; }
+.aq-card .aq-card-desc  { font-size: 0.88rem; opacity: 0.88; line-height: 1.5; }
+
+.aq-card-nctb-gen  { background: linear-gradient(135deg, #f39c12, #e67e22); }
+.aq-card-nctb-high { background: linear-gradient(135deg, #e74c3c, #c0392b); }
+.aq-card-edx-p1    { background: linear-gradient(135deg, #667eea, #764ba2); }
+.aq-card-edx-p2    { background: linear-gradient(135deg, #11998e, #38ef7d); color: #0a2a27; }
+
+/* Solution boxes */
+.strategy-box, .theory-box, .formula-box {
+  border-radius: 0.5rem;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+}
+
+.strategy-box { background: #fff8e1; border-left: 4px solid #f39c12; }
+.theory-box   { background: #e8f4fd; border-left: 4px solid #2980b9; }
+.formula-box  { background: #f0fff4; border-left: 4px solid #27ae60; }
+
+[data-md-color-scheme="slate"] .strategy-box { background: #2c2400; }
+[data-md-color-scheme="slate"] .theory-box   { background: #001a2e; }
+[data-md-color-scheme="slate"] .formula-box  { background: #001a0a; }
+
+/* Difficulty badges */
+.badge-easy   { color: #27ae60; font-weight: 700; }
+.badge-medium { color: #f39c12; font-weight: 700; }
+.badge-hard   { color: #e74c3c; font-weight: 700; }
