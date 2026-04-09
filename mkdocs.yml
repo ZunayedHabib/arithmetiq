@@ -60,6 +60,9 @@ nav:
   - Home: index.md
   - NCTB General Math 9-10:
       - Overview: nctb-general-math-9-10/index.md
+      - Chapter 1 — Real Numbers:
+          - Overview: nctb-general-math-9-10/chapter-1-real-numbers/index.md
+          - Exercise 1.1: nctb-general-math-9-10/chapter-1-real-numbers/exercise-1-1.md
   - NCTB Higher Math 9-10:
       - Overview: nctb-higher-math-9-10/index.md
   - Edexcel P1:
