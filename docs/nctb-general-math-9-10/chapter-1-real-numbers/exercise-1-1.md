@@ -85,7 +85,7 @@ Simplify each option completely. If it reduces to a fraction or integer, it is r
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Simplify option 1: \( 0.\dot{3} \)</div>
+<div class="step-label arithmatex">Step 1 — Simplify option 1: \( 0.\dot{3} \)</div>
 <div class="step-body arithmatex">
 \( 0.\dot{3} \) means \( 0.3333\ldots \) — a recurring decimal. Every recurring decimal equals a fraction:
 \[ 0.\dot{3} = \frac{1}{3} \]
@@ -94,7 +94,7 @@ This is a ratio of two integers. It is <strong>rational</strong>.
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Simplify option 2: \( \sqrt{\dfrac{16}{9}} \)</div>
+<div class="step-label arithmatex">Step 2 — Simplify option 2: \( \sqrt{\dfrac{16}{9}} \)</div>
 <div class="step-body arithmatex">
 Take the square root of the numerator and denominator separately:
 \[ \sqrt{\frac{16}{9}} = \frac{\sqrt{16}}{\sqrt{9}} = \frac{4}{3} \]
@@ -103,7 +103,7 @@ Both 16 and 9 are perfect squares, so the result is a simple fraction. It is <st
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Simplify option 3: \( \sqrt[3]{\dfrac{8}{27}} \)</div>
+<div class="step-label arithmatex">Step 3 — Simplify option 3: \( \sqrt[3]{\dfrac{8}{27}} \)</div>
 <div class="step-body arithmatex">
 Take the cube root of numerator and denominator separately:
 \[ \sqrt[3]{\frac{8}{27}} = \frac{\sqrt[3]{8}}{\sqrt[3]{27}} = \frac{2}{3} \]
@@ -112,7 +112,7 @@ Since \( 2^3 = 8 \) and \( 3^3 = 27 \), both are perfect cubes. Result is a frac
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Simplify option 4: \( \dfrac{5}{\sqrt{3}} \)</div>
+<div class="step-label arithmatex">Step 4 — Simplify option 4: \( \dfrac{5}{\sqrt{3}} \)</div>
 <div class="step-body arithmatex">
 The denominator contains \( \sqrt{3} \). Since 3 is not a perfect square, \( \sqrt{3} \) is irrational — it cannot be expressed as a fraction.<br><br>
 Dividing the rational number 5 by the irrational \( \sqrt{3} \) always gives an irrational result.<br><br>
@@ -168,7 +168,7 @@ For each number, ask: can it be written as \( \dfrac{p}{q} \)?<br>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Classify \( 0.\dot{4} \)</div>
+<div class="step-label arithmatex">Step 1 — Classify \( 0.\dot{4} \)</div>
 <div class="step-body arithmatex">
 \( 0.\dot{4} = 0.4444\ldots \) is a recurring decimal. All recurring decimals are rational:
 \[ 0.\dot{4} = \frac{4}{9} \]
@@ -177,7 +177,7 @@ It is <strong>rational</strong>.
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Classify \( \sqrt{9} \)</div>
+<div class="step-label arithmatex">Step 2 — Classify \( \sqrt{9} \)</div>
 <div class="step-body arithmatex">
 Since \( 3^2 = 9 \), the number 9 is a perfect square:
 \[ \sqrt{9} = 3 \]
@@ -186,7 +186,7 @@ The result is a whole number, which is rational. It is <strong>rational</strong>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Classify \( \sqrt{11} \)</div>
+<div class="step-label arithmatex">Step 3 — Classify \( \sqrt{11} \)</div>
 <div class="step-body arithmatex">
 The perfect squares either side of 11 are \( 3^2 = 9 \) and \( 4^2 = 16 \). Since 11 lies strictly between them, it is not a perfect square.<br><br>
 Therefore \( \sqrt{11} \) cannot be simplified to a fraction. It is <strong>irrational</strong>.
@@ -194,7 +194,7 @@ Therefore \( \sqrt{11} \) cannot be simplified to a fraction. It is <strong>irra
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Classify \( \dfrac{\sqrt{27}}{\sqrt{48}} \)</div>
+<div class="step-label arithmatex">Step 4 — Classify \( \dfrac{\sqrt{27}}{\sqrt{48}} \)</div>
 <div class="step-body arithmatex">
 Combine the square roots into one:
 \[ \frac{\sqrt{27}}{\sqrt{48}} = \sqrt{\frac{27}{48}} \]
@@ -205,7 +205,7 @@ The irrational parts cancelled. The result is a simple fraction. It is <strong>r
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 5 — Classify \( 5.\dot{6}3\dot{9} \)</div>
+<div class="step-label arithmatex">Step 5 — Classify \( 5.\dot{6}3\dot{9} \)</div>
 <div class="step-body arithmatex">
 The notation \( 5.\dot{6}3\dot{9} \) means the digits 6, 3, 9 repeat: \( 5.639639639\ldots \)<br><br>
 This is a recurring decimal, so it can be written as a fraction. It is <strong>rational</strong>.
@@ -263,10 +263,10 @@ Perform long division. Divide the numerator by the denominator, continuing past 
 </div>
 </div>
 
-<div class="part-label">(a) \( \dfrac{1}{6} \)</div>
+<div class="part-label arithmatex">(a) \( \dfrac{1}{6} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Divide 1 by 6 step by step</div>
+<div class="step-label arithmatex">Step 1 — Divide 1 by 6 step by step</div>
 <div class="step-body arithmatex">
 \( 1 \div 6 \): since \( 1 < 6 \), place a decimal point and work with 10, then 40, and so on.<br><br>
 • \( 10 \div 6 = 1 \) remainder \( 4 \) → write digit <strong>1</strong> after the decimal point<br>
@@ -278,10 +278,10 @@ The remainder 4 never changes, so the digit 6 repeats forever.
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(b) \( \dfrac{7}{11} \)</div>
+<div class="part-label arithmatex">(b) \( \dfrac{7}{11} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Divide 7 by 11 step by step</div>
+<div class="step-label arithmatex">Step 2 — Divide 7 by 11 step by step</div>
 <div class="step-body arithmatex">
 \( 7 \div 11 \): since \( 7 < 11 \), place a decimal point and work with 70, then 40, then 70 again.<br><br>
 • \( 70 \div 11 = 6 \) remainder \( 4 \) → write digit <strong>6</strong><br>
@@ -293,10 +293,10 @@ The remainder cycle \( 4 \to 7 \to 4 \to \cdots \) repeats, so the two-digit blo
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(c) \( 3\dfrac{8}{15} \)</div>
+<div class="part-label arithmatex">(c) \( 3\dfrac{8}{15} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Separate the whole number and convert the fraction</div>
+<div class="step-label arithmatex">Step 3 — Separate the whole number and convert the fraction</div>
 <div class="step-body arithmatex">
 Write \( 3\dfrac{8}{15} = 3 + \dfrac{8}{15} \).<br><br>
 Now divide 8 by 15 step by step:<br><br>
@@ -309,7 +309,7 @@ The remainder 5 repeats indefinitely, so only the digit 3 recurs.
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Attach the whole number</div>
+<div class="step-label arithmatex">Step 4 — Attach the whole number</div>
 <div class="step-body arithmatex">
 \[ 3\frac{8}{15} = 3 + 0.5\dot{3} = 3.5\dot{3} \]
 </div>
@@ -371,10 +371,10 @@ First write the full decimal expansion by identifying the repeating block. Then 
 </div>
 </div>
 
-<div class="part-label">(a) \( 12 \)</div>
+<div class="part-label arithmatex">(a) \( 12 \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Write the exact value and approximate</div>
+<div class="step-label arithmatex">Step 1 — Write the exact value and approximate</div>
 <div class="step-body arithmatex">
 12 is a whole number. Its decimal expansion is \( 12.000000\ldots \) — all zeros, no recurring part.<br><br>
 <strong>Exact value:</strong> \( 12 \)<br>
@@ -383,10 +383,10 @@ First write the full decimal expansion by identifying the repeating block. Then 
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(b) \( 0.\dot{2}\dot{5} \)</div>
+<div class="part-label arithmatex">(b) \( 0.\dot{2}\dot{5} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Write the expansion and approximate</div>
+<div class="step-label arithmatex">Step 2 — Write the expansion and approximate</div>
 <div class="step-body arithmatex">
 \( 0.\dot{2}\dot{5} \) means the block "25" repeats:
 \[ 0.\dot{2}\dot{5} = 0.25252525\ldots \]
@@ -398,10 +398,10 @@ The decimal digits are: 2, 5, 2, 5, 2, 5, …<br><br>
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(c) \( 1.\dot{3}\dot{4} \)</div>
+<div class="part-label arithmatex">(c) \( 1.\dot{3}\dot{4} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Write the expansion and approximate</div>
+<div class="step-label arithmatex">Step 3 — Write the expansion and approximate</div>
 <div class="step-body arithmatex">
 \( 1.\dot{3}\dot{4} \) means the block "34" repeats:
 \[ 1.\dot{3}\dot{4} = 1.34343434\ldots \]
@@ -413,10 +413,10 @@ Decimal digits after the point: 3, 4, 3, 4, 3, 4, …<br><br>
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(d) \( 5.1\dot{3}0\dot{2} \)</div>
+<div class="part-label arithmatex">(d) \( 5.1\dot{3}0\dot{2} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Write the expansion and approximate</div>
+<div class="step-label arithmatex">Step 4 — Write the expansion and approximate</div>
 <div class="step-body arithmatex">
 \( 5.1\dot{3}0\dot{2} \) means the block "302" repeats after the initial 1:
 \[ 5.1\dot{3}0\dot{2} = 5.1302302302\ldots \]
@@ -488,10 +488,10 @@ Let \( x \) equal the recurring decimal. Multiply by the right powers of 10 to s
 </div>
 </div>
 
-<div class="part-label">(a) \( 0.\dot{2} \)</div>
+<div class="part-label arithmatex">(a) \( 0.\dot{2} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Set up the equation</div>
+<div class="step-label arithmatex">Step 1 — Set up the equation</div>
 <div class="step-body arithmatex">
 Let \( x = 0.\dot{2} = 0.2222\ldots \)<br><br>
 There are 0 non-recurring digits and 1 recurring digit, so multiply by \( 10^1 = 10 \):
@@ -500,7 +500,7 @@ There are 0 non-recurring digits and 1 recurring digit, so multiply by \( 10^1 =
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Subtract to remove the recurring part</div>
+<div class="step-label arithmatex">Step 2 — Subtract to remove the recurring part</div>
 <div class="step-body arithmatex">
 \[ 10x - x = 2.2222\ldots - 0.2222\ldots \]
 \[ 9x = 2 \]
@@ -509,10 +509,10 @@ There are 0 non-recurring digits and 1 recurring digit, so multiply by \( 10^1 =
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(b) \( 0.3\dot{5} \)</div>
+<div class="part-label arithmatex">(b) \( 0.3\dot{5} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Set up the equation</div>
+<div class="step-label arithmatex">Step 3 — Set up the equation</div>
 <div class="step-body arithmatex">
 Let \( x = 0.3\dot{5} = 0.35555\ldots \)<br><br>
 There is 1 non-recurring digit (3) and 1 recurring digit (5). Multiply by \( 10^1 = 10 \) and by \( 10^{1+1} = 100 \):
@@ -522,7 +522,7 @@ There is 1 non-recurring digit (3) and 1 recurring digit (5). Multiply by \( 10^
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Subtract to remove the recurring part</div>
+<div class="step-label arithmatex">Step 4 — Subtract to remove the recurring part</div>
 <div class="step-body arithmatex">
 \[ 100x - 10x = 35.5555\ldots - 3.5555\ldots \]
 \[ 90x = 32 \]
@@ -531,10 +531,10 @@ There is 1 non-recurring digit (3) and 1 recurring digit (5). Multiply by \( 10^
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(c) \( 3.7\dot{8} \)</div>
+<div class="part-label arithmatex">(c) \( 3.7\dot{8} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 5 — Set up the equation</div>
+<div class="step-label arithmatex">Step 5 — Set up the equation</div>
 <div class="step-body arithmatex">
 Let \( x = 3.7\dot{8} = 3.7888\ldots \)<br><br>
 There is 1 non-recurring digit after the decimal point (7) and 1 recurring digit (8). Multiply by \( 10 \) and by \( 100 \):
@@ -544,7 +544,7 @@ There is 1 non-recurring digit after the decimal point (7) and 1 recurring digit
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 6 — Subtract and solve</div>
+<div class="step-label arithmatex">Step 6 — Subtract and solve</div>
 <div class="step-body arithmatex">
 \[ 100x - 10x = 378.888\ldots - 37.888\ldots \]
 \[ 90x = 341 \]
@@ -612,7 +612,7 @@ If one decimal has period length \( p \) and another has period length \( q \), 
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Identify the period of each decimal</div>
+<div class="step-label arithmatex">Step 1 — Identify the period of each decimal</div>
 <div class="step-body arithmatex">
 \( 2.\dot{2}\dot{3} = 2.232323\ldots \) → repeating block is "23" → <strong>period length = 2</strong><br><br>
 \( 5.\dot{2}3\dot{5} = 5.235235235\ldots \) → repeating block is "235" → <strong>period length = 3</strong>
@@ -620,7 +620,7 @@ If one decimal has period length \( p \) and another has period length \( q \), 
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Find the LCM of the two period lengths</div>
+<div class="step-label arithmatex">Step 2 — Find the LCM of the two period lengths</div>
 <div class="step-body arithmatex">
 LCM(2, 3) = 6<br><br>
 We need to rewrite both decimals so that their repeating block is 6 digits long.
@@ -628,7 +628,7 @@ We need to rewrite both decimals so that their repeating block is 6 digits long.
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Extend each decimal to period length 6</div>
+<div class="step-label arithmatex">Step 3 — Extend each decimal to period length 6</div>
 <div class="step-body arithmatex">
 <strong>For \( 2.\dot{2}\dot{3} \)</strong> (period 2, need period 6 = 3 repetitions):<br>
 Write the block "23" three times: 23|23|23<br>
@@ -688,7 +688,7 @@ Convert each recurring decimal to a fraction using the algebraic method, add the
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Convert \( 0.4\dot{5} \) to a fraction</div>
+<div class="step-label arithmatex">Step 1 — Convert \( 0.4\dot{5} \) to a fraction</div>
 <div class="step-body arithmatex">
 Let \( x = 0.4\dot{5} = 0.45555\ldots \)<br>
 1 non-recurring digit (4), 1 recurring digit (5) → multiply by 10 and 100:
@@ -700,7 +700,7 @@ Subtract:
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Convert \( 0.1\dot{3}\dot{4} \) to a fraction</div>
+<div class="step-label arithmatex">Step 2 — Convert \( 0.1\dot{3}\dot{4} \) to a fraction</div>
 <div class="step-body arithmatex">
 Let \( x = 0.1\dot{3}\dot{4} = 0.13434\ldots \)<br>
 1 non-recurring digit (1), 2 recurring digits (34) → multiply by 10 and 1000:
@@ -712,7 +712,7 @@ Subtract:
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Add the two fractions</div>
+<div class="step-label arithmatex">Step 3 — Add the two fractions</div>
 <div class="step-body arithmatex">
 \[ \frac{41}{90} + \frac{133}{990} \]
 The LCM of 90 and 990 is 990. Convert the first fraction:
@@ -725,7 +725,7 @@ Simplify (GCD of 584 and 990 is 2):
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Convert the result back to a decimal</div>
+<div class="step-label arithmatex">Step 4 — Convert the result back to a decimal</div>
 <div class="step-body arithmatex">
 Divide 292 by 495 using long division:<br><br>
 \( 2920 \div 495 = 5 \) remainder 445<br>
@@ -776,10 +776,10 @@ Convert each recurring decimal to a fraction, perform the subtraction as a fract
 </div>
 </div>
 
-<div class="part-label">(a) \( 3.\dot{4} - 2.1\dot{3} \)</div>
+<div class="part-label arithmatex">(a) \( 3.\dot{4} - 2.1\dot{3} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Convert \( 3.\dot{4} \) to a fraction</div>
+<div class="step-label arithmatex">Step 1 — Convert \( 3.\dot{4} \) to a fraction</div>
 <div class="step-body arithmatex">
 Let \( x = 3.\dot{4} = 3.4444\ldots \)<br>
 0 non-recurring digits, 1 recurring digit → multiply by 10:
@@ -789,7 +789,7 @@ Let \( x = 3.\dot{4} = 3.4444\ldots \)<br>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Convert \( 2.1\dot{3} \) to a fraction</div>
+<div class="step-label arithmatex">Step 2 — Convert \( 2.1\dot{3} \) to a fraction</div>
 <div class="step-body arithmatex">
 Let \( x = 2.1\dot{3} = 2.1333\ldots \)<br>
 1 non-recurring digit (1), 1 recurring digit (3) → multiply by 10 and 100:
@@ -799,7 +799,7 @@ Let \( x = 2.1\dot{3} = 2.1333\ldots \)<br>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Subtract the fractions</div>
+<div class="step-label arithmatex">Step 3 — Subtract the fractions</div>
 <div class="step-body arithmatex">
 \[ \frac{31}{9} - \frac{32}{15} \]
 LCM(9, 15) = 45:
@@ -810,10 +810,10 @@ Converting: \( 59 \div 45 = 1 \) rem 14; \( 140 \div 45 = 3 \) rem 5; \( 50 \div
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(b) \( 8.49 - 5.35\dot{6} \)</div>
+<div class="part-label arithmatex">(b) \( 8.49 - 5.35\dot{6} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Convert \( 5.35\dot{6} \) to a fraction</div>
+<div class="step-label arithmatex">Step 4 — Convert \( 5.35\dot{6} \) to a fraction</div>
 <div class="step-body arithmatex">
 Let \( x = 5.35\dot{6} = 5.35666\ldots \)<br>
 2 non-recurring digits (35), 1 recurring digit (6) → multiply by 100 and 1000:
@@ -823,7 +823,7 @@ Let \( x = 5.35\dot{6} = 5.35666\ldots \)<br>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 5 — Subtract the fractions</div>
+<div class="step-label arithmatex">Step 5 — Subtract the fractions</div>
 <div class="step-body arithmatex">
 Write \( 8.49 = \dfrac{849}{100} \). The LCM of 100 and 300 is 300:
 \[ \frac{849}{100} - \frac{1607}{300} = \frac{2547}{300} - \frac{1607}{300} = \frac{940}{300} = \frac{47}{15} \]
@@ -873,27 +873,27 @@ Convert every recurring decimal to a fraction. Multiply the fractions using \( \
 </div>
 </div>
 
-<div class="part-label">(a) \( 0.\dot{3} \times 0.\dot{6} \)</div>
+<div class="part-label arithmatex">(a) \( 0.\dot{3} \times 0.\dot{6} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Convert both decimals to fractions</div>
+<div class="step-label arithmatex">Step 1 — Convert both decimals to fractions</div>
 <div class="step-body arithmatex">
 \[ 0.\dot{3} = \frac{3}{9} = \frac{1}{3} \qquad 0.\dot{6} = \frac{6}{9} = \frac{2}{3} \]
 </div>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Multiply the fractions</div>
+<div class="step-label arithmatex">Step 2 — Multiply the fractions</div>
 <div class="step-body arithmatex">
 \[ \frac{1}{3} \times \frac{2}{3} = \frac{2}{9} = 0.\dot{2} \]
 </div>
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(b) \( 2.4 \times 0.\dot{8}\dot{1} \)</div>
+<div class="part-label arithmatex">(b) \( 2.4 \times 0.\dot{8}\dot{1} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Convert both numbers to fractions</div>
+<div class="step-label arithmatex">Step 3 — Convert both numbers to fractions</div>
 <div class="step-body arithmatex">
 \[ 2.4 = \frac{24}{10} = \frac{12}{5} \]
 For \( 0.\dot{8}\dot{1} = 0.818181\ldots \), the repeating block "81" has 2 digits, so multiply by 99:
@@ -902,14 +902,14 @@ For \( 0.\dot{8}\dot{1} = 0.818181\ldots \), the repeating block "81" has 2 digi
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Multiply the fractions</div>
+<div class="step-label arithmatex">Step 4 — Multiply the fractions</div>
 <div class="step-body arithmatex">
 \[ \frac{12}{5} \times \frac{9}{11} = \frac{108}{55} \]
 </div>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 5 — Convert \( \dfrac{108}{55} \) back to a decimal</div>
+<div class="step-label arithmatex">Step 5 — Convert \( \dfrac{108}{55} \) back to a decimal</div>
 <div class="step-body arithmatex">
 \( 108 \div 55 = 1 \) rem 53<br>
 \( 530 \div 55 = 9 \) rem 35<br>
@@ -960,10 +960,10 @@ Convert every recurring decimal to a fraction. Use the rule \( \dfrac{a}{b} \div
 </div>
 </div>
 
-<div class="part-label">(a) \( 0.\dot{3} \div 0.\dot{6} \)</div>
+<div class="part-label arithmatex">(a) \( 0.\dot{3} \div 0.\dot{6} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Convert to fractions and divide</div>
+<div class="step-label arithmatex">Step 1 — Convert to fractions and divide</div>
 <div class="step-body arithmatex">
 \[ 0.\dot{3} = \frac{1}{3}, \qquad 0.\dot{6} = \frac{2}{3} \]
 \[ \frac{1}{3} \div \frac{2}{3} = \frac{1}{3} \times \frac{3}{2} = \frac{1}{2} = 0.5 \]
@@ -971,10 +971,10 @@ Convert every recurring decimal to a fraction. Use the rule \( \dfrac{a}{b} \div
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(b) \( 2.\dot{3}\dot{7} \div 0.\dot{4}\dot{5} \)</div>
+<div class="part-label arithmatex">(b) \( 2.\dot{3}\dot{7} \div 0.\dot{4}\dot{5} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Convert \( 2.\dot{3}\dot{7} \) to a fraction</div>
+<div class="step-label arithmatex">Step 2 — Convert \( 2.\dot{3}\dot{7} \) to a fraction</div>
 <div class="step-body arithmatex">
 Let \( x = 2.\dot{3}\dot{7} = 2.373737\ldots \)<br>
 0 non-recurring digits, 2 recurring digits → multiply by 100:
@@ -984,7 +984,7 @@ Let \( x = 2.\dot{3}\dot{7} = 2.373737\ldots \)<br>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Convert \( 0.\dot{4}\dot{5} \) to a fraction</div>
+<div class="step-label arithmatex">Step 3 — Convert \( 0.\dot{4}\dot{5} \) to a fraction</div>
 <div class="step-body arithmatex">
 Let \( x = 0.\dot{4}\dot{5} = 0.454545\ldots \)<br>
 \[ 99x = 45 \implies x = \frac{45}{99} = \frac{5}{11} \]
@@ -992,7 +992,7 @@ Let \( x = 0.\dot{4}\dot{5} = 0.454545\ldots \)<br>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Divide the fractions</div>
+<div class="step-label arithmatex">Step 4 — Divide the fractions</div>
 <div class="step-body arithmatex">
 \[ \frac{235}{99} \div \frac{5}{11} = \frac{235}{99} \times \frac{11}{5} = \frac{235 \times 11}{99 \times 5} = \frac{2585}{495} \]
 Simplify. The GCD of 2585 and 495:
@@ -1003,7 +1003,7 @@ GCD = \( 5 \times 11 = 55 \):
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 5 — Convert \( \dfrac{47}{9} \) to a decimal</div>
+<div class="step-label arithmatex">Step 5 — Convert \( \dfrac{47}{9} \) to a decimal</div>
 <div class="step-body arithmatex">
 \( 47 \div 9 = 5 \) rem 2; \( 20 \div 9 = 2 \) rem 2 (repeats immediately).
 \[ \frac{47}{9} = 5.\dot{2} \]
@@ -1063,10 +1063,10 @@ Assume \( \sqrt{5} \) (and then \( \sqrt{10} \)) is rational, i.e. it equals \( 
 </div>
 </div>
 
-<div class="part-label">(a) Prove \( \sqrt{5} \) is irrational</div>
+<div class="part-label arithmatex">(a) Prove \( \sqrt{5} \) is irrational</div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Assume the opposite</div>
+<div class="step-label arithmatex">Step 1 — Assume the opposite</div>
 <div class="step-body arithmatex">
 Suppose, for contradiction, that \( \sqrt{5} \) is rational.<br>
 Then we can write \( \sqrt{5} = \dfrac{p}{q} \) where \( p \) and \( q \) are integers with no common factor (the fraction is in its lowest terms) and \( q \neq 0 \).
@@ -1074,7 +1074,7 @@ Then we can write \( \sqrt{5} = \dfrac{p}{q} \) where \( p \) and \( q \) are in
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Square both sides</div>
+<div class="step-label arithmatex">Step 2 — Square both sides</div>
 <div class="step-body arithmatex">
 \[ \left(\sqrt{5}\right)^2 = \left(\frac{p}{q}\right)^2 \implies 5 = \frac{p^2}{q^2} \implies p^2 = 5q^2 \]
 This tells us that 5 divides \( p^2 \).
@@ -1082,7 +1082,7 @@ This tells us that 5 divides \( p^2 \).
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Show 5 divides p</div>
+<div class="step-label arithmatex">Step 3 — Show 5 divides p</div>
 <div class="step-body arithmatex">
 Since 5 is prime and \( 5 \mid p^2 \), we conclude \( 5 \mid p \).<br>
 So write \( p = 5k \) for some integer \( k \).
@@ -1090,7 +1090,7 @@ So write \( p = 5k \) for some integer \( k \).
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Substitute and find the contradiction</div>
+<div class="step-label arithmatex">Step 4 — Substitute and find the contradiction</div>
 <div class="step-body arithmatex">
 Substitute \( p = 5k \) into \( p^2 = 5q^2 \):
 \[ (5k)^2 = 5q^2 \implies 25k^2 = 5q^2 \implies q^2 = 5k^2 \]
@@ -1101,17 +1101,17 @@ Therefore \( \sqrt{5} \) is <strong>irrational</strong>. \( \blacksquare \)
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(b) Prove \( \sqrt{10} \) is irrational</div>
+<div class="part-label arithmatex">(b) Prove \( \sqrt{10} \) is irrational</div>
 
 <div class="step-box">
-<div class="step-label">Step 5 — Assume the opposite</div>
+<div class="step-label arithmatex">Step 5 — Assume the opposite</div>
 <div class="step-body arithmatex">
 Suppose \( \sqrt{10} = \dfrac{p}{q} \) in lowest terms (\( p, q \) share no common factor, \( q \neq 0 \)).
 </div>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 6 — Square both sides</div>
+<div class="step-label arithmatex">Step 6 — Square both sides</div>
 <div class="step-body arithmatex">
 \[ 10 = \frac{p^2}{q^2} \implies p^2 = 10q^2 \]
 Since \( 10q^2 \) is even, \( p^2 \) is even, which means \( p \) is even (an odd number squared is always odd).<br>
@@ -1120,7 +1120,7 @@ Write \( p = 2k \).
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 7 — Find the contradiction</div>
+<div class="step-label arithmatex">Step 7 — Find the contradiction</div>
 <div class="step-body arithmatex">
 Substitute \( p = 2k \):
 \[ (2k)^2 = 10q^2 \implies 4k^2 = 10q^2 \implies 2k^2 = 5q^2 \]
@@ -1176,21 +1176,21 @@ Write the two consecutive even integers in general form as \( 2n \) and \( 2(n+1
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Write the two consecutive even integers in general form</div>
+<div class="step-label arithmatex">Step 1 — Write the two consecutive even integers in general form</div>
 <div class="step-body arithmatex">
 Let the two consecutive even integers be \( 2n \) and \( 2(n+1) \), where \( n \) is any integer.
 </div>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Write out their product</div>
+<div class="step-label arithmatex">Step 2 — Write out their product</div>
 <div class="step-body arithmatex">
 \[ \text{Product} = 2n \times 2(n+1) = 4n(n+1) \]
 </div>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Show that \( n(n+1) \) is always even</div>
+<div class="step-label arithmatex">Step 3 — Show that \( n(n+1) \) is always even</div>
 <div class="step-body arithmatex">
 \( n \) and \( n+1 \) are consecutive integers. One of them must be even (integers alternate between odd and even). The product of any even number with anything is even, so:
 \[ n(n+1) = 2m \quad \text{for some integer } m \]
@@ -1198,7 +1198,7 @@ Let the two consecutive even integers be \( 2n \) and \( 2(n+1) \), where \( n \
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Conclude the product is divisible by 8</div>
+<div class="step-label arithmatex">Step 4 — Conclude the product is divisible by 8</div>
 <div class="step-body arithmatex">
 Substitute \( n(n+1) = 2m \) into the product:
 \[ \text{Product} = 4 \times n(n+1) = 4 \times 2m = 8m \]
@@ -1263,10 +1263,10 @@ For part (b): estimate \( \dfrac{1}{\sqrt{2}} \approx 0.707 \) and \( \sqrt{2} \
 </div>
 </div>
 
-<div class="part-label">(a) Two irrational numbers between 0.12 and 0.31</div>
+<div class="part-label arithmatex">(a) Two irrational numbers between 0.12 and 0.31</div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Scale known irrationals into the target range</div>
+<div class="step-label arithmatex">Step 1 — Scale known irrationals into the target range</div>
 <div class="step-body arithmatex">
 \( \sqrt{2} \approx 1.41421\ldots \) and \( \sqrt{3} \approx 1.73205\ldots \)<br>
 Dividing each by 10:
@@ -1276,7 +1276,7 @@ Both lie strictly between 0.12 and 0.31. ✓
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Confirm both are irrational</div>
+<div class="step-label arithmatex">Step 2 — Confirm both are irrational</div>
 <div class="step-body arithmatex">
 \( \sqrt{2} \) is irrational (its decimal expansion never terminates or repeats). Dividing by the non-zero rational 10 keeps it irrational — a rational divided into an irrational never produces a rational result.<br><br>
 The same reasoning applies to \( \dfrac{\sqrt{3}}{10} \).
@@ -1284,10 +1284,10 @@ The same reasoning applies to \( \dfrac{\sqrt{3}}{10} \).
 </div>
 
 <hr class="part-hr">
-<div class="part-label">(b) A rational and an irrational between \( \dfrac{1}{\sqrt{2}} \) and \( \sqrt{2} \)</div>
+<div class="part-label arithmatex">(b) A rational and an irrational between \( \dfrac{1}{\sqrt{2}} \) and \( \sqrt{2} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 3 — Estimate the endpoints</div>
+<div class="step-label arithmatex">Step 3 — Estimate the endpoints</div>
 <div class="step-body arithmatex">
 \[ \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2} \approx \frac{1.41421}{2} \approx 0.7071 \]
 \[ \sqrt{2} \approx 1.4142 \]
@@ -1296,7 +1296,7 @@ We need one rational and one irrational strictly between \( 0.7071 \) and \( 1.4
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 4 — Choose a rational number in the range</div>
+<div class="step-label arithmatex">Step 4 — Choose a rational number in the range</div>
 <div class="step-body arithmatex">
 The whole number 1 satisfies \( 0.707 < 1 < 1.414 \).<br><br>
 <strong>Rational number: \( 1 \)</strong>
@@ -1304,7 +1304,7 @@ The whole number 1 satisfies \( 0.707 < 1 < 1.414 \).<br><br>
 </div>
 
 <div class="step-box">
-<div class="step-label">Step 5 — Choose and verify an irrational number in the range</div>
+<div class="step-label arithmatex">Step 5 — Choose and verify an irrational number in the range</div>
 <div class="step-body arithmatex">
 Try \( \dfrac{\sqrt{3}}{2} \approx \dfrac{1.73205}{2} \approx 0.8660 \).<br><br>
 <strong>Left inequality</strong> — show \( \dfrac{1}{\sqrt{2}} < \dfrac{\sqrt{3}}{2} \):
