@@ -911,7 +911,7 @@
 .q-counter { color: #777; font-size: 0.88rem; font-weight: 500; }
 .q-nav-spacer { min-width: 110px; }
 .q-header { background: linear-gradient(135deg, #f39c12, #e67e22); color: #fff; padding: 0.9rem 1.4rem; border-radius: 12px 12px 0 0; font-size: 1.08rem; font-weight: 700; }
-.q-body { background: #fff; border: 1px solid #dde3ea; border-top: none; border-radius: 0 0 12px 12px; padding: 1.4rem 1.6rem; box-shadow: 0 3px 10px rgba(0,0,0,.06); margin-bottom: 1rem; }
+.q-body { background: #fff; border: 1px solid #dde3ea; border-top: none; border-radius: 0 0 12px 12px; padding: 1.4rem 1.6rem; box-shadow: 0 3px 10px rgba(0,0,0,.06); margin-bottom: 1rem; color: #1a1a1a; }
 .badge { display: inline-block; padding: 0.2rem 0.65rem; border-radius: 20px; font-size: 0.8rem; font-weight: 700; margin-left: 0.5rem; vertical-align: middle; }
 .badge-easy   { background: #e8f5e9; color: #2e7d32; }
 .badge-medium { background: #fff8e1; color: #e65100; }
@@ -1165,23 +1165,14 @@ Perform long division. Divide the numerator by the denominator, continuing past 
 <div class="part-label">(a) \( \dfrac{1}{6} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 1 — Divide 1 by 6 using long division</div>
+<div class="step-label">Step 1 — Divide 1 by 6 step by step</div>
 <div class="step-body arithmatex">
-\( 1 \div 6 \): since 1 &lt; 6, write 0. and continue with 10.
-\[
-\begin{array}{r}
-0.1\overline{6} \\[-2pt]
-6 \enclose{longdiv}{1.0000} \\
-\underline{-\phantom{0}6\phantom{00}} \\
-40 \\
-\underline{-36} \\
-40 \\
-\underline{-36} \\
-4\ldots
-\end{array}
-\]
-The remainder 4 repeats from the second step, so the digit 6 repeats.<br><br>
-Therefore \( \dfrac{1}{6} = 0.1\dot{6} \)
+\( 1 \div 6 \): since \( 1 < 6 \), place a decimal point and work with 10, then 40, and so on.<br><br>
+• \( 10 \div 6 = 1 \) remainder \( 4 \) → write digit <strong>1</strong> after the decimal point<br>
+• Append a zero to the remainder: \( 40 \div 6 = 6 \) remainder \( 4 \) → write digit <strong>6</strong><br>
+• Append a zero to the remainder: \( 40 \div 6 = 6 \) remainder \( 4 \) → write digit <strong>6</strong> again<br><br>
+The remainder 4 never changes, so the digit 6 repeats forever.
+\[ \frac{1}{6} = 0.1\dot{6} = 0.1666\ldots \]
 </div>
 </div>
 
@@ -1189,23 +1180,14 @@ Therefore \( \dfrac{1}{6} = 0.1\dot{6} \)
 <div class="part-label">(b) \( \dfrac{7}{11} \)</div>
 
 <div class="step-box">
-<div class="step-label">Step 2 — Divide 7 by 11 using long division</div>
+<div class="step-label">Step 2 — Divide 7 by 11 step by step</div>
 <div class="step-body arithmatex">
-\( 7 \div 11 \): since 7 &lt; 11, write 0. and work with 70.
-\[
-\begin{array}{r}
-0.\overline{63} \\[-2pt]
-11 \enclose{longdiv}{7.0000} \\
-\underline{-66\phantom{00}} \\
-40 \\
-\underline{-33} \\
-70 \\
-\underline{-66} \\
-40 \ldots
-\end{array}
-\]
-After two steps the remainder 70 repeats, so the two-digit block "63" repeats.<br><br>
-Therefore \( \dfrac{7}{11} = 0.\dot{6}\dot{3} \)
+\( 7 \div 11 \): since \( 7 < 11 \), place a decimal point and work with 70, then 40, then 70 again.<br><br>
+• \( 70 \div 11 = 6 \) remainder \( 4 \) → write digit <strong>6</strong><br>
+• Append a zero to the remainder: \( 40 \div 11 = 3 \) remainder \( 7 \) → write digit <strong>3</strong><br>
+• Append a zero to the remainder: \( 70 \div 11 = 6 \) remainder \( 4 \) → back to the start<br><br>
+The remainder cycle \( 4 \to 7 \to 4 \to \cdots \) repeats, so the two-digit block "63" recurs forever.
+\[ \frac{7}{11} = 0.\dot{6}\dot{3} = 0.6363\ldots \]
 </div>
 </div>
 
@@ -1216,18 +1198,11 @@ Therefore \( \dfrac{7}{11} = 0.\dot{6}\dot{3} \)
 <div class="step-label">Step 3 — Separate the whole number and convert the fraction</div>
 <div class="step-body arithmatex">
 Write \( 3\dfrac{8}{15} = 3 + \dfrac{8}{15} \).<br><br>
-Now divide 8 by 15:
-\[
-\begin{array}{r}
-0.5\overline{3} \\[-2pt]
-15 \enclose{longdiv}{8.000} \\
-\underline{-75\phantom{0}} \\
-50 \\
-\underline{-45} \\
-50 \ldots
-\end{array}
-\]
-The remainder 50 repeats immediately, so only the digit 3 recurs.
+Now divide 8 by 15 step by step:<br><br>
+• \( 80 \div 15 = 5 \) remainder \( 5 \) → write digit <strong>5</strong><br>
+• Append a zero to the remainder: \( 50 \div 15 = 3 \) remainder \( 5 \) → write digit <strong>3</strong><br>
+• Append a zero to the remainder: \( 50 \div 15 = 3 \) remainder \( 5 \) → back to the same remainder<br><br>
+The remainder 5 repeats indefinitely, so only the digit 3 recurs.
 \[ \frac{8}{15} = 0.5\dot{3} \]
 </div>
 </div>
